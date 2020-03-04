@@ -1,0 +1,44 @@
+VERY IMPORTANT!!
+Luego de leer lo que sigue es posible dar uso a una serie de interfaces que nos facilitan el tener que crear interfaces para dar uso a las lambdas
+y se llama "import java.util.function.*"
+
+
+LAMBDAS va de la mano de la llamada programación funcional, la cual consiste en el "¿Que quiero?"
+a diferencia de la programación tradicional o imperativa la cual se basa en el "¿Como?"
+
+Todas las INTERFACES que tengan una sola funcion son compatibles con LAMBDAS, puesto que lambdas es el uso de expresiones o metodos simplificados
+y pueden utilizar la annotation @FunctionalInterface
+Ej:
+
+@FunctionalInterface
+interface Ejemplo{
+    public static Presentacion(String a, Integer b);
+}
+
+//Main method
+
+Ejemplo ej = (a, b) -> System.out.print("Mi nombre es: " +name+ "y tengo " +age+ "años");
+
+System.out.print(ej.Presentacion(miguel, 18));
+
+
+- Las Lambdas son funciones o clases anonimas
+- Las funciones anonimas son aquellas que no requieren ser instanciadas ni estar conectadas directamente con una clase
+
+Se definen asi:
+
+(Integer n) -> {return n % 2 == 0;}
+
+- Parametros que require
+- Flecha
+- Cuerpo o codigo a ejecutar
+
+IMPORTANT!!
+- Dado el caso que ya se sepa de antemano por el compilador de java que tipo de dato va a recibir es posible compactar aun mas esta función anonima
+Asi:
+
+n -> {return n % 2 == 0;}
+
+Sabiendo que va a retornar una expresion de un definido tipo tambien es posible saltarse el return:
+
+n -> n % 2 == 0

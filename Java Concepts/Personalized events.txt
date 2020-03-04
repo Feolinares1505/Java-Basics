@@ -1,0 +1,2 @@
+- Para hacer uso de los eventos es necesario crear una interfaz que importe y extienda de java.util.EventListener;
+- Todo aquello que dispare un evento debe implementar la interfaz EventObject

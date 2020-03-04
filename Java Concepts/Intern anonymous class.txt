@@ -1,0 +1,7 @@
+CLASE INTERNA ANONIMA:
+
+- "NO SOLO ES POSIBLE CREAR CLASES INTERNAS SINO TAMBIEN INTERFACES Y ABSTRAC CLASS"
+- Las clases internas son aquellas que creamos dentro de otra clase.
+- Se usan cuando solo deseamos usarla dentro de nuestra clase contenedor.
+- Se usan en los escuchadores, callbacks o eventos según sea requerido.
+- Cuando se compila esta queda de la siguiente forma "FatherClass$AnonymousClass.class"

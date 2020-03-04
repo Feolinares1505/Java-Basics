@@ -1,0 +1,14 @@
+//Extraer numeros de una lista condicionados a una caracterisitica:
+
+//import java.util.stream.*;
+
+/*static boolean esPar(Integer n){
+    return n % 2 == 0;
+}*/
+
+//List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7,8,9);
+
+//resultados = numeros.stream().filter(Clase::esPar "funcion a resivir como parametro de comparación").collect(Collectors.toList());
+
+Esta ultima parte lo que hace es extraer todos aquellos valores que cuenten con la caracteristica establecida por el metodo asignado,
+coleccionado todos aquellos valores que si cumplen con dicha caracteristica y que desechando aquellos que por el contrario no la cumplan.

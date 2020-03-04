@@ -1,0 +1,2 @@
+- Consiste en ocultar los atributos para que no sean modificados de forma indiscriminada usando los modificadores de acceso para
+evitar que las modifiquen, y solo podran ser accedidas medinate su getter

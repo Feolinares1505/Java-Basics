@@ -1,0 +1,8 @@
+- Private
+    La propia clase.
+- Public
+    Todos.
+- Default
+    Misma clase y mismo paquete.
+- Protected
+    Misma clase, mismo paquete y clases que hereden de esta en otro paquete.
