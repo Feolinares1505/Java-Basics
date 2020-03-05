@@ -1,0 +1,2 @@
+Maven es una herramienta utilizada para la gestion de dependencias necesarias para el desarrollo del programa con el cual estamos trabajando
+Dichas dependencias se extrablecen en un archivo xml "pom.xml" cuyo nombre significa project object model
