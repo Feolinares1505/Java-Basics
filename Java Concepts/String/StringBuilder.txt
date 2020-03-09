@@ -1,0 +1,23 @@
+Si el valor del objeto va a cambiar un gran numero de veces pero solo sera editado por un unico hilo entonces es recomendable utilizar
+StringBuilder
+
+- Velocidad de ejecución : 297
+- USO DE CONTRUCTORES DENTRO DE STRINGBUILDER
+
+StringBuilder()
+
+Construye un StringBuilder vacío y con una capacidad por defecto de 16 carácteres.
+
+StringBuilder s = new StringBuilder();
+
+StringBuilder(int capacidad)
+
+Se le pasa la capacidad (número de caracteres) como argumento.
+
+StringBuilder s = new StringBuilder(55);
+
+StringBuilder(String str)
+
+Construye un StringBuilder en base al String que se le pasa como argumento.
+
+StringBuilder s = new StringBuilder("hola");

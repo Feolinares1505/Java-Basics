@@ -1,0 +1,14 @@
+Las excepciones en java se manejan mediante
+
+Try {
+    String name = "Miguel";
+    int num = Integer.parseInt(name);
+} catch(Exception e){
+    System.out.print(e.getMessage());
+    System.out.print("Error");
+} finally {
+    Syste.out.print("Esto siempre se ejecutará.");
+}
+
+Existe un bloque que siempre se ejecutara si asi lo deseamos aunque el try o el catch funcione o no;
+throw new Exception(); //Esta linea sirve para lanzar o improvisar una excepción

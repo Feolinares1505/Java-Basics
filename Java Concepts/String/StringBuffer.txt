@@ -1,0 +1,31 @@
+Este puede ser utilizado cuando es modificado por varios hilos, lo que quiere decir que es de tipo sincronizado "Thread Safe", asegurando que
+un hilo no modifique el StringBuffer que este siendo usado por otro
+
+- Velocidad de ejecución : 328
+
+- Metodos:
+
+append()
+appendCodePoint()
+capacity()
+charAt()
+codePointAt()
+codePointBefore()
+codePointCount()
+delete()
+deleteCharAt()
+ensureCapacity()
+getChars()
+indexOf()
+insert()
+lastIndexOf()
+length()
+offsetByCodePoints()
+replace()
+reverse()
+setCharAt()
+setLength()
+subSequence()
+substring()
+toString()
+trimToSize()

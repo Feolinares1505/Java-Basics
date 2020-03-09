@@ -1,0 +1,5 @@
+Este nos sirve para crear y escribir un archivo
+
+FileWriter file = new FileWriter("C:\\newFile.txt");
+
+Ver PrintWriter.txt ->

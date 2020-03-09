@@ -1,0 +1,3 @@
+Un UUID es un valor alfanumerico aleatorio que nos podria servir para un usuario o un proceso de recuperación de contraseña
+
+System.out.print(UUID.randomUUID().toString().toUpperCase().substring(0, 6); Todo esto nos sirve para generar una clave aleatoria

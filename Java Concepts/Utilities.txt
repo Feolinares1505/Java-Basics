@@ -12,3 +12,10 @@
 
 Esta ultima parte lo que hace es extraer todos aquellos valores que cuenten con la caracteristica establecida por el metodo asignado,
 coleccionado todos aquellos valores que si cumplen con dicha caracteristica y que desechando aquellos que por el contrario no la cumplan.
+
+
+//Crear un arreglo de objetos:
+
+Ejemplo[] obj = new Ejemplo[8];
+obj[0] = new Ejemplo("Hola", 3);
+obj[1] = new Ejemplo("Hey", 8);

@@ -1,0 +1,5 @@
+Para rellenar el archivo se utiliza una instancia de PrintWriter pasando como parametro el archivo creado y leido en FileWriter
+
+PrintWriter write = new PrintWriter(file);
+Accediendo a sus metodos .printLn(); y print(); podremos llenarlo con la información que deseemos.
+El primero con salto de linea

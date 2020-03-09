@@ -1,0 +1,15 @@
+La clase File sirve para realizar procesamiento de archivos y se instancia de la siguiente forma:
+
+File fileOne = new File("C:\\test.txt");
+
+y sus metodos son:
+
+- fileOne.exists(); //Devuelve un booleano segun exista o no
+- fileOne.canRead(); //Nos devuelve un booleano si puede ser leido o no
+- fileOne.canWrite(); //Retorna un booleano según sea posible escribirlo o no
+- Si deseamos crear un directorio es posible mediante el metodo .mkdir();
+- Cuando existen subdirectorios se usa el metodo .mkdirs();
+- fileOne.renameTo(new File("C:\\newName.txt")); //Renombrar archivos
+- fileOne.delete(); //Nos sirve para borrar el archivo de la ruta
+
+//En caso de que el value sea false es debido a que estan protegidos o dañados

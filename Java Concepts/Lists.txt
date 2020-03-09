@@ -1,0 +1,13 @@
+Las listas se crean de la siguiente manera y pueden contener Datos u objetos, asi:
+
+List<Integer> example = new ArrayList<>();
+
+example.add(1);
+example.add(45);
+example.add(23);
+
+y algunos de sus metodos son:
+
+example.size(); //Devuelve el valor en indices de la lista, su tamaño
+example.remove(1); //Borra el valor almacenado en ese indice y sube todos los demas una posición
+example.contains(45); //Devuelve un booleano segun exista o no este valor dentro de la lista

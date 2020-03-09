@@ -1,0 +1,18 @@
+La clase Iterator nos sirve para recorrer un arreglo o lista
+haciendo uso de los metodos hasNext() y next()
+
+Ejemplo:
+
+List<String> Languaje = new ArrayList<>();
+
+Languaje.add("Java");
+Languaje.add("Php");
+Languaje.add(".NET");
+Languaje.add("JavaScript");
+Languaje.add("C++");
+
+Iterator<String> it = Languaje.iterator();
+
+While(it.hasNext()){
+    System.out.print(it.next());
+}
