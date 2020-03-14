@@ -1,0 +1,21 @@
+Nos sirve para leer un archivo
+
+FileReader file;
+BuffereReader reader;
+
+try {
+    file = new FileReader("C:\\test.txt");
+    if(file.ready()) {
+        reader = new BuffereReader(file);
+        String content;
+        while((content = reader.readline()) != null){
+            System.out.print(content);
+        }
+    } else{
+        System.out.print("El archivo no esta listo para ser leido...");
+    }
+} catch (Exception e){
+    System.out.print(e.Message());
+}
+
+Este bloque genera la lectura de un archivo

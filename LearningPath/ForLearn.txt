@@ -1,20 +1,17 @@
-APRENDER:
-
+APRENDER PARA JAVA:
+que es un API de java
+Trabajar con clases del API
+Java Lang
+Clase System
 Unit Testing
 Terminal
 Profundizar Git
 Aprender Matematica
-Crer un proyecto personal
 Fundamentos de la ingenieria de software
-Que es tipado y scripts
-Convencion de nombres para Setter y Getter
-Patrón de diseño Observer
 EventObject interface
 Eventos personalizados en java
-Testing y framework para java
 Programación funcional e imperativa
 RabbitMQ
-com.Threads en java
 Metodo Collections y comparator java
 Linkedlist java
 Que son los entornos enbebidos
@@ -28,7 +25,6 @@ API stream predicate
 JAVA EE, jakarta
 JPA
 Servidores de aplicaciones
-JSF y Primefaces "Cultura general, casi no se usa ahora"
 JAX-WS
 JAX-RS
 patrones de diseño
@@ -45,7 +41,7 @@ Integración y pruebas unitarias
 Docker o Kubernetes
 Paradigmas reactivos IMPORTANT!!
    - RxJava
-   - Project Reactor (Spring WEbFlux)
+   - Project Reactor (Spring WebFlux)
 Orquestación de contenedores
    - Qubernet
 Microservicios
@@ -54,3 +50,17 @@ Java Enterprise es para desarrollo empresarial con java web
 Micro Front-ends
 Seguridad cloud
 Jenkins
+Concurrencia
+- JSF o Primefaces "Cultura general, casi no se usa ahora"
+
+Front-end
+Ofuscadores
+Diseñoru
+Que es tipado y scripts
+
+
+Inteligiencia Artifial
+Matematica (Algebra, Probabilidad, Estadistica, Calculo, Ciencias de datos, Bases de datos)
+Álgebra lineal
+Estructuras de datos
+Calculo integral

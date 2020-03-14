@@ -1,4 +1,0 @@
-- Super(); es utilizado dentro de los constructores para heredar o traer el codigo proveniente de "valga la redundancia" un "Constructor padre"
-  siendo posible agregar mas atributos o propiedades
-- Se usa tambien para definir los atributos necesarios para su uso dentro de los metodos heredados del abstract class.
-- Al momento de agregar un set dentro de un constructor con la sentencia super, es posible definirlo y ser usado de forma ascendente, es decir, por la clase abstracta

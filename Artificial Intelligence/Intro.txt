@@ -1,0 +1,27 @@
+La inteligencia altificial es el uso de los algoritmos, estadistica y probabilidad
+utilizados para anteponer y aprender acerca de situaciones, haciendo posible generar respuestas a partir de la información
+recolectada y aprendida.
+
+Temas importntes antes de aprender machine learning:
+ - Algebra
+ - Redes Neuronales
+ - Estadistica
+ - Probabilidad
+ - Patrones de comportamiento
+ - Relacion de situaciones que componen el porque de un resutado determinado
+ - Aprendizaje no supervisado
+ - Redes generativas
+ - Perceptrones
+ - Redes adversiales generativas
+ - Reinforcement Learning
+ - Deep Learning
+ - Open AI Empresa(Investigar)
+ - La inteligencia artificial es capaz de generar noticias falsas a partir de una semilla
+   , desarrollando todo su contenido y hacerlo totalmente creaible
+   , generar caras, estos estan siendo utilizadas para eliminar
+ - Deepfakes (Investigar)
+ - Es posible que la inteligencia se estanque en algun punto, cuando el poder de computo
+   se vea obsoleto ante los avances de la IA
+ - Local AI
+ - Cloud AI
+ - Uso de la IA para encarcelar gente que hace parte de una minoria etnica en China

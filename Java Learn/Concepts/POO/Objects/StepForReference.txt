@@ -1,0 +1,2 @@
+Los pasos por referencia suceden cuando un objeto es enviado como parametro, puesto que lo que se enviara, no es mas que una referencia a dicho objeto
+haciendo que desde el metodo que solicito el argumento de tipo objeto, pueda acceder a sus metodos y realizar modificaciones

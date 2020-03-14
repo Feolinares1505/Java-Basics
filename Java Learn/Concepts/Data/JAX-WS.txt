@@ -1,0 +1,2 @@
+Java Api XML Web Services es una libreria que permite realizar web services que utiliza anotattions
+y asi el cliente pueda consumirlos

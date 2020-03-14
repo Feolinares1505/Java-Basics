@@ -1,0 +1,8 @@
+en el momento en que se crea una varibale de tipo primitivo y es usada para pasar por parametro de algpun metodo
+, lo que realmente se envia es una copia de esta, mantiendo su valor original:
+
+int age = 3;
+
+Person p1 = new Person();
+p1.age(age); //Aqui etamos enviando el valor de la edad de una persona, pero si este valor es modificado dentro de el metodo no significa que el valor
+de la variable que creamos tambien lo haga

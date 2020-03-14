@@ -1,0 +1,17 @@
+La sentecia switch se puede utilizar de dos la siguiente manera:
+
+int useValue = 3;
+
+switch (useValue){
+    case 1: case 2:
+        System.out.println("Hi, your number is 1 or 2");
+    break;
+
+    case 3:
+        System.out.println("Hi, your numer is 3");
+    break;
+
+    deafault:
+        System.out.println("Something failed");
+    break;
+}

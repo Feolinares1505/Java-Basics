@@ -1,0 +1,5 @@
+JPA significa java persistence API y es la que se encarga de relizar las peticiones al servidor sin necesidad de hacer sentencias puras de SQL
+Algunos de los proveedores son:
+Hibernate
+Eclipselink
+Toplink

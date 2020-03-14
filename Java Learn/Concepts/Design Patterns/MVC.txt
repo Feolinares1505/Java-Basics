@@ -1,0 +1,3 @@
+Model: todas las clases que acceden a información dentro de una base de datos
+View: todas las paginas del lado cliente, jsp, html
+Controller: recibe las solicitudes desde la vista y las redirecciona y responde en base a lo exitsente en las clases modelo

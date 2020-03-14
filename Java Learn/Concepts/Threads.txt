@@ -1,0 +1,31 @@
+Los Hilos O com.Threads son procesos, forma de manejar mas de un proceso independiente dentro de tu programa en java
+Para hacer uso de estos dentro de el lenguaje java es necesario hacer uso de una clase llamada
+"Thread" la cual debe ser extendida por aquella clase dentro de la que se hara uso de dichos hilos
+Permite tener multiples procesos ejecutandose al mismo tiempo, debido a que son independientes
+Evitando la ejecucion tradicional en la que se debe esperar por el orden de procesos establecudo en el cual es necesario esperar a que el proceso actual finalize para poder pasar al siguiente, siguiendo una secuencia
+
+
+- Es posible implementar un hilo de dos formas diferentes,
+implementando la interface Runnable o extendiendo la clase Thread
+- Existen los estados de hilo en java, que son:
+
+    NEW: Ha sido creado pero no inicializado start(); tan solo ha sido instanciado
+
+    RUNNABLE - Ejecutable: Ya fue inicialzado con start();
+
+    BLOCKED - NO RUNNABLE: Bloquear el hilo por un tiempo limitado, mediante el metodo
+    sleep(2000); permitienado qu al momento de que se termine este tiempo asignado dentro de sleep
+    el hilo reanudara su labor, para hacer uso de este metodo es necesario utilizar el
+    try- catch o haciendolo directamente desde la declaración del hilo
+
+    try{
+        ejemplo.sleep(4000);
+    } catch(InterrumpedException e){
+        System.out.print("Error al detener el hilo" + e);
+    }
+
+    DEAD: Puede ser provocado de dos maneras, cuando termina su ejecución o provocandolo
+    con la instrucción stop();
+
+
+    - Sincronización de hilos:

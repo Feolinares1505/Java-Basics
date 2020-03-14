@@ -1,0 +1,10 @@
+El operador ternario define un secuencia de ejecucion en la que se hace una primera validación de tipo booleano
+y dependiendo de el resultado hara una cosa o la otra
+
+int a = 8;
+int b = 4;
+
+int c = (a < b) ? a : b
+
+si es valor es true entonces el valor de c sera aquel en primer lugar, en este caso a, si el valor es false entonces c será igual
+a b;

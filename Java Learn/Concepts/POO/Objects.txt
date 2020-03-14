@@ -1,0 +1,8 @@
+Los objetos son referenciados por variables de su mismo tipo, así:
+Person p1 = new Person();
+
+Por lo tanto es posible asignar esa referencia a una nueva variables de su mismo tipo
+
+Person p2 = p1;
+
+por lo tanto p2 esta guardando la misma referencia a el objeto creado en primera instancia

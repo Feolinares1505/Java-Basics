@@ -1,0 +1,11 @@
+La sobrecarga de metodos implica poder crear varios metodos con el mismo nombre dentro de
+una sola clase, esto aplica tambien para los metodos constructores
+- Lo realemnte importante aqui es que deben ser diferenciados y la unica forma de lograr esto
+  es que cada metodo requiera de unos parametros distintos, asi:
+
+  public void Saludar(int name, String message){
+    System.out.print("Hi " + name + message);
+  }
+  public void Saludar(String nickname, String message){
+    System.out.print("Hi " + nickname + message);
+  }

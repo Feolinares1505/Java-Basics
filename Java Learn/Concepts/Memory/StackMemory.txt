@@ -1,0 +1,2 @@
+La memoria stack se utiliza para las llamadas de varibales locales y funciones en java
+Aquellas variables almacenadas en esta memoria generalmene tienen un tiempo de vida corto

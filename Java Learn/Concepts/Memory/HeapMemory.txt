@@ -1,0 +1,3 @@
+La memoria heap se utiliza para almacenar los objetos y sus atributos
+y su tiempo denduración suele ser mas prolongado
+los nombres de los objetos (Person p1 = new Person();) en este caso p1 solo guarda la referencia en memoria del objeto creado mas no su contenido

@@ -1,0 +1,10 @@
+El operador de asiganción es capaz de definir el valor de varias variables como uno mismo en na linea de codigo
+
+int a, b, c;
+a = b = c = 3;
+
+lo que seria igual a:
+
+a = 3;
+b = 3;
+c = 3;

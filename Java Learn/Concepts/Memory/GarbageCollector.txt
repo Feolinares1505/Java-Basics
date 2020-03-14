@@ -1,0 +1,6 @@
+El recolector de basura de java solamente elimina aquellos valores que no estan siendo referenciados por una variable
+
+un objeto es candidato a ser eliminado por el garbage collector cuando ninguna variable esté haciendo referencia a este
+
+es posible hacer llamado a este garbage collector con la instrucción System.gc; aunque esto no garantiza que se ejecuté, mas bien
+se esta pidiendo que en cuanto sea posible realizar la recolección, este lo haga
