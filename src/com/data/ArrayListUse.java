@@ -2,6 +2,11 @@ package com.data;
 
 import java.util.ArrayList;
 
+/**
+ * Esta clase fue creada con el fin de poner en practica el uso de los ArrayList
+ * @author Miguel Feo
+ * @version 1.0
+ */
 public class ArrayListUse {
 
     public static ArrayList<StructureOfData> ShowTranslateValue(){

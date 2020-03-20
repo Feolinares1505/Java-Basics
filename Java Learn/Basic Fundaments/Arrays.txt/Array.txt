@@ -1,0 +1,8 @@
+Los arrays pueden ser definidos desde su declaración:
+
+String names[] = {"Miguel", "Angel", "Yeison"}; //Tipo string
+Person person = {new Person("Miguel"), new Person("Angel")}; //Tipo objeto
+
+Para acceder a la cantidad de indices de un arreglo se uso el metodo .lenght(), asi:
+
+System.out.print(names.lenght());//Esto nos mostrara el valor de 3

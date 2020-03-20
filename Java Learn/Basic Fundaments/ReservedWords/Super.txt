@@ -1,0 +1,36 @@
+- Super(); es utilizado dentro de los constructores para heredar o traer el codigo proveniente de "valga la redundancia" un "Constructor padre"
+  siendo posible agregar mas atributos o propiedades
+- Se usa tambien para definir los atributos necesarios para su uso dentro de los metodos heredados del abstract class.
+- Al momento de agregar un set dentro de un constructor con la sentencia super, es posible definirlo y ser usado de forma ascendente, es decir, por la clase abstracta
+- La instrucción super debe ser colocada en primer lugar dentro del metodo que la use
+- Super no solo es capaz de traer los contructores de la clase padre, sino que tambien metodos, asi:
+
+  public class Father{
+
+    private String name;
+    private int age;
+
+    public Father(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    public void Hello(){
+      System.out.print("Hi");
+    }
+  }
+
+  public class Son extends Father{
+
+    private String school;
+
+    public Son(String name, int age, String school){
+        super(name, age);
+        this.school = school;
+    }
+
+    public void Hello(){
+      super.Hello();
+    }
+  }
+

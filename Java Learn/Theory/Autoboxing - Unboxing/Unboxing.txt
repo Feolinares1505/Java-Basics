@@ -1,0 +1,11 @@
+TODO El concepto de Autoboxing y Unboxing va logado con el uso de las clases respectivas a cada tipo primitivo, para aprovechar sus ventajas
+Unboxing es el proceso contrario en el cual es transformado un tipo objet envolvente a un tipo primitivo literal, así:
+
+Integer integerObject = 10;
+Float floatObject = 22.2F;
+Double doubleObject = 476.6;
+
+//Aqui es donde comienza el proceso de unboxing
+int integerPrimitivo = integerObject;
+float floatPrimitivo = floatObject;
+double doublePrimitivo = doubleObject;

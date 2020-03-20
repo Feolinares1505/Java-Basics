@@ -1,0 +1,19 @@
+"This" es utilizado para diferenciar los atributos de una clase de las variables locales
+Cuando this es utilizado dentro de un constructor, este apuntara a el objeto que se este utilizando en el momento, asi:
+
+public class Example(){
+    String name;
+    public Example(String name){
+        this.name = name();
+    }
+}
+
+Example ej = new Example("Miguel"); // En este momento de la ejecución del programa, la palabra reservada this, esta guardando la referencia
+This puede ser llamado por si solo pues es el apuntador a el objeto actual, asi:
+
+System.out.print(this); //Esta linea nos mostrara el valor de "Miguel"
+
+"EL OPERADOR THIS SOLO PUEDE SER UTILIZADO EN EL CONTEXTO DINAMICO (objeto), ES DECIR, QUE NO PODRA SER UTILIZADO PARA ASOCIARLO A METODOS O
+ATRIBUTOS STATICOS (static)"
+
+This solo tiene sentido cuando se ha creado un objeto

@@ -1,0 +1,25 @@
+Static me permite definir una funcion propia de la clase, lo que quiere decir que no será necesario crear una instancia para poder acceder al metodo
+En el caso de las propiedades será exactamente igual, permietiendo accederlo con el nombre de la clase y lo deseado ya sea metodo o atributo
+
+Para entender el uso de la palabra reservada static es importante entender los conceptos de
+Contexto estatico: hace referencia a las clases, las cuales se cargan mas rapido
+Contexto dinamico: Hacer referencia a los objetos que son creados a partir de una clase
+
+Cuando se usa static en un atributo, este podra ser referenciado una sola vez, es decir que no podra ser llenado por cada
+nuevo objeto, si un objeto modifica el valor de dicha variable, este valor será proporcionado para cada uno de los demas objetos, asi:
+
+public static int num;
+
+Person p1 = new Person();
+p1.setNum(8);
+
+Person p2 = new Person();
+p2.setNum(3);
+
+si yo aqui imprimo el valor del atributo num para el objeto p1, su valor será 3, pues fue el ultimo que le fue asignado
+igual para el objeto p2 quien fue el ultimo en modificar dicho valor
+
+Si deseamos usar esta definición es comunmente utilizado el modificador public, pues cualquiera podra acceder a dichos metodos o atributos
+mediante la clase
+
+"LOS OBJETOS TAMBIEN PUEDEN SER STATIC"

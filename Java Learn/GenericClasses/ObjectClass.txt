@@ -1,0 +1,13 @@
+Los metodos que nos proporciona la clase object, son:
+
+Todos estos metodos deben ser sobreescritos de lo contrario nos retornara sus respectivos valores pero teniendo en cuenta la ubicación en memoria y no el contenido del objeto
+TODO Cuando sobreescribamos el metodo equals o hascode será de obligación hacer la implementación de ambos
+
+hashCode(); //Devuelve un int que será un numero referente y unico para cada objeto
+
+
+equals(); //Devuelve un booleano de acuerdo a la comparacion de los valores de cada objeto
+
+
+toString();//Devuelve un String con el estado del objeto, es decir, sus atributos (Se le suele llamar reprecentación en texto), si no se hace uso de este metodo entonces lo que se
+mostrara al momento de imprimir el objeto será su referencia en memoria

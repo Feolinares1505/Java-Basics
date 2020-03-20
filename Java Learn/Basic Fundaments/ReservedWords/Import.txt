@@ -1,0 +1,7 @@
+Es posible importar directamente los metodos de una clase cuando estos sean estaticos, asi:
+
+import static com.example.Person.eat;
+
+public static void main(String args[]){
+    eat("ñam ñam ñam");
+}

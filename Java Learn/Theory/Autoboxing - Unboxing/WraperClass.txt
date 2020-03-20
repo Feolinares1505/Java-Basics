@@ -1,0 +1,13 @@
+Los equivalentes para los valores de tipo primitivos son:
+
+boolean - Boolean
+byte - Byte
+long - Long
+short - Short
+char - Character
+int - Integer
+float - Float
+double - Double
+
+//Para acceder a los valores contenidos se utiliza el metodo floatValue();, doubleValue(), intValue(), etc
+según corresponda

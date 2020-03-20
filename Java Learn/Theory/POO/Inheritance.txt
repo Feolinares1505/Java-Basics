@@ -1,0 +1,3 @@
+La herencia en java consiste en el uso de metodos o atributos que vienen desde arriba de la cadena jerarquica, es decir las generaciones
+La clase Persona, respira, come, defeca.
+La clase Trabajador que extiende la clase Persona, tambien puede acceder a estos metodos

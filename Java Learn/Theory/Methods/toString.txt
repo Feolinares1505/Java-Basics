@@ -1,0 +1,12 @@
+toString es un metodo que proviene de la clase object y se usa para mostrar el estado de un objeto, es decir, mostrara toda la info
+que contiene el mismo y se define asi;
+
+@Override
+public String toString(){
+    return "Person{Name:" + name + "Age: " + age + '}';
+}
+
+Person p1 = new Person("Miguel", 18);
+
+System.out.print(p1); // Al imprimir el objeto p1 este automaticamente hace el llamado del metodo toString(),
+"cuando se usa el metodo print o println"

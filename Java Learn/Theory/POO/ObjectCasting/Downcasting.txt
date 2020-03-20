@@ -1,0 +1,17 @@
+Cuando el casteo se hace de manera descendente, es decir: de un objeto de arriba en la jerarquia de herencia a uno de abajo, se le conoce
+como downasting, así:
+- Para realizar la conversion de un objeto padre a un objeto hijo, si es necesario implementar codigo, pues debemos seleccionar especificamente
+  a cual de los objetos hijo deseamos castearlo
+
+  Para realizar el casteo se usa la siguiente intaxis:
+
+  Empleado emp = new Bombero();
+
+  emp.apagarFuego(); //Esto nos generará un error pues al ser la variable de tipo Empleado no puede acceder sino a sus metodos generales, por ende
+  no será posible que haga uso de los metodos unicos de la clase Bombero, así que necesitaremos hacer un casting
+
+  Bombero bombero = (Bombero) emp; //Dentro de los parentecis que anteponen el objeto a convertir, irá el tipo de objeto al cual deseamos transformarlo,
+  esto siempre y cuando sea de un tipo superior a uno inferior en la jerarquia
+
+  TODO Tambien es posible hacer la conversión idrectamente donde la necesitemos sin necesidad de crear una nueva variable, asi:
+  System.out.print(((Bombero) emp).apagarFuego());

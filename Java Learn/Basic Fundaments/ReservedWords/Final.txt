@@ -1,0 +1,6 @@
+- En atributos quiere decir que no pueden cambiar su valor durante la ejecución de un programa, pasan a ser constantes
+- En metodos significa que no podran ser sobreescritos y en clases detiene la cadena de herencia de las mismas, haciendo imposible extenderlas
+- En el caso de las variables que almacenan referencias de objetos (final Person p1 = new Person("Miguel")) estas pueden cambiar su estado pero no la referencia,
+  lo que quiere decir que no podra ser redefinida dicha referencia, asi:
+  p1 = new Person("Angel"); //ERROR, lo que si es posible hacer, es usar los accesors, modifiers y demas metodos que contiene
+  p1.setName("Yeison");

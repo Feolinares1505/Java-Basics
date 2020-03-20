@@ -1,0 +1,2 @@
+SETTER:
+Este va a ser de tipo void pues no debe retornar nada, su funcion se limita a definir un valor

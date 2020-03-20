@@ -1,0 +1,7 @@
+- instanceOf es una declaración que devuelve un valor booleano, lo que realmente quiere decir es
+  "si un objeto es instancia de una determinada clase", esto aplica para la clase propia del objeto o cualquiera de su ascendencia a nivel de
+   herencia.
+- InstanceOf solo puede ser utilizado para elementos de tipo object y no de tipo primitivo
+- Una instancia puede pertenecer a mas de un tipo según haya mas y mas clases padre, es decir, una clase padre que a su
+  vez tenga otra clase padre, etc, es por esto que usando la herencia es posible que un objeto
+  sea de mas de un tipo siempre y cuando esten corelacionados (Revisar ejemplo clases instanceOf)

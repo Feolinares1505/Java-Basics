@@ -13,6 +13,7 @@ public class TextColor {
         colors[4] = "\033[35m";
         colors[5] = "\033[37m";
 
+
         int i = 0;
         for (String e : values) {
             System.out.println(colors[i] + e);

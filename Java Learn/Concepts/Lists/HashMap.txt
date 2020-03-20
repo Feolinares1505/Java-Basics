@@ -1,9 +1,0 @@
-HashMap es una clase que sirve para hacer las pases de un diccionario en donde existe algo llamado Key and Value
-se hace uso de claves asociativas
-
-HashMap dicc = new HashMap;
-
-dicc.put("Nombre", "Miguel");
-dicc.put("Edad", "18");
-
-String value = dicc.get("Nombre").toString(); la forma de obtener los valores de un hashMap es mediante el metodo get() y el indice que deseamos

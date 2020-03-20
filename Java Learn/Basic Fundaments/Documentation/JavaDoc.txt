@@ -1,0 +1,23 @@
+Java permite documentar nuestras clases por medio de javaDoc el cual es un docuemnto Html que muestra la ducimentación de cada una de
+las clases de un proyecto en java, para hacer uso de JavaDoc es requerido el uso de la siguiente sintaxis parecida a los comentarios
+pero que en vez de uno tiene dos asteriscos al comienzo, asi:
+
+/**
+  *  Esta clase permite...
+  *  @author: Miguel Angel Feo
+  *  @version: 1.0
+  *  Fecha: 15/05/2001
+*/
+
+Esto sera incluido en el documento html javaDoc, es posible crear estos comentarios para la documentación en cualquier parte dentro de
+la clase, ya sea para documentar metodos, atibutos o como ya lo vimos, las clase en si
+
+"ES POSILE UTILIZAR ALGUNOS ELEMENTOS PARA INDICAR ALGUNAS CARACTERISTICAS COMO LOS SON: @author, @version, @return(Se usa par indicar
+el valor se lo que retornara un metodo, ej: @return: Este metodo retornara el valor de la suma de dos elementos)"
+
+@author: Indica el creador de la clase
+@deprecated: Indica que este objeto es obsoleto, pertenece a versiones anteriores o que no se remcomienda su uso
+@param: Definición de un parametro de un metodo
+@return: Describe lo que retorna un metodo, no se usa en constructores o metodos void
+@see: Indica que se asocia con otro método o clase
+@version: Version del método o clase

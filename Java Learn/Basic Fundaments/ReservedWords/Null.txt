@@ -1,0 +1,5 @@
+La palabra reservada null se utiliza para especificar que no ha sido asignado ningun valor o referencia a variables de tipo objeto
+String, Person, Example, etc.
+No puede ser utilizada para valores de tipo primitivo
+Es una buena practica que en el momento en que ya no estemos utilizando un objeto en java lo definamos como tipo null para que asi
+el objeto a el que hacia referencia pueda ser limpiado por el garbage collector

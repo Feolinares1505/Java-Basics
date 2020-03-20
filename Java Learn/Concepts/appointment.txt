@@ -1,7 +1,0 @@
-- Las clases y las interfaces en java deben ser llamadas como sustantivos y estar en mayuscula la primera (Perro, Agua, Casa, etc).
-
-- Los metodos son nombrados como verbos (oorrerLento, oadar, obtener, etc), cuando el nombre del metodo es compuesto, se usa la escritura de camello.
-
-- Las variables deben estar en minusculas y ser cortas, sencillas, concretas, tambien se puede usar la escritura camello.
-
-- Las contantes es posible llamarlas totalmente en mayusculas separadas por guion bajo.

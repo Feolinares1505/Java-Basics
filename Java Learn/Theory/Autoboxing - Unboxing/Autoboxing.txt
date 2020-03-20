@@ -1,0 +1,10 @@
+TODO El concepto de Autoboxing y Unboxing va logado con el uso de las clases respectivas a cada tipo primitivo, para aprovechar sus ventajas
+Autoboxing es el proceso por el cual es transformado automaticamente un valor de tipo primitivo a uno de
+tipo objeto, así:
+
+Integer entero = 10;
+Float flotante = 22.2F;
+Double double = 476.6;
+
+A las clases que son capaces de transformar los valores de ipo primitivo a tipo objeto se les llama clase "envolvente" y
+existe una por cada tipo "primitido" que hay

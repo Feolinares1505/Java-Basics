@@ -1,0 +1,37 @@
+//Extraer numeros de una lista condicionados a una caracterisitica:
+
+//import java.util.stream.*;
+
+/*static boolean esPar(Integer n){
+    return n % 2 == 0;
+}*/
+
+//List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7,8,9);
+
+//resultados = numeros.stream().filter(Clase::esPar "funcion a resivir como parametro de comparación").collect(Collectors.toList());
+
+Esta ultima parte lo que hace es extraer todos aquellos valores que cuenten con la caracteristica establecida por el metodo asignado,
+coleccionado todos aquellos valores que si cumplen con dicha caracteristica y que desechando aquellos que por el contrario no la cumplan.
+
+
+//Crear un arreglo de objetos:
+
+Ejemplo[] obj = new Ejemplo[8];
+obj[0] = new Ejemplo("Hola", 3);
+obj[1] = new Ejemplo("Hey", 8);
+
+//Si yo quiero saber el numero de objetos creados de una clase es posible hacerlo de la siguiente manera:
+
+Usando el contructor y un atributo de tipo static
+
+public static int objectNum;
+private String name;
+private int id;
+
+public Person(String name){
+    objectNum++;
+    this.name = name;
+    id = objectNum;;
+}
+//Asi cada vez que se llame el contructor paa crear un nuevo objeto, el contador aumentará de uno en uno, aqui se esta generando un id
+casi automatico

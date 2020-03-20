@@ -1,0 +1,34 @@
+TODO IMPORTANT!! Cuando se crea una variable de tipo clase padre y se le asigna un objeto de tipo hijo, entonces (Esta variable NO podrá acceder a los metodos de la clase hija)
+El polimorfismo consiste en la posibilidad de que una variable padre sea capaz de almacenar un objeto de tipo hijo y por ende hacer uso de sus metodos
+y contará con los atributos necesarios definidos dentro de la clase hijo, que podrán ser soliitadps desde su contructor o al momento de hacer
+uso de sus diferentes metodos
+
+public class Carro{
+    public String Info(){
+        return "Este es un carro normal";
+    }
+}
+
+public class Deportivo extends Carro(){
+
+    @Override
+    public String Info(){
+        return "Este es un carro deportivo";
+    }
+}
+
+//Main method
+
+    Carro ejemplo = new Deportivo();
+    ejemplo.Info(); //En este ejemplo el metodo que se esta llamando no es el de la clase Carro sino el de la
+    clase deportivo, pues la referencia de objeto que la variable ejemplo contiene es el de un tipo deportivo
+
+    TODO Para poder hacer esto es necesario que exista una cadena de herencia
+    /*Es posible llamar al metodo padre y hacerle las modificaciones correspondiente para que encaje con lo solicitado por la
+    clase hija, haciendo uso de la palabra super. seguido del nombre del metodo que viene desde arriba y haciendo las modificaciones*/
+
+    public String Info(){
+           super.Info() + "Aqui lo estoy modificando";
+    }
+    //Lo que nos retornaria este metodo es el valor que retorna el metodo padre, concatenado con el valor que le estamos añadiendo
+    //El super aqui se utiliza para reutilizar codigo cada vez que sea p0sible

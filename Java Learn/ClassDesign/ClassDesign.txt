@@ -1,0 +1,19 @@
+Se le llama diseño de clases cuando se Rrequiere la creacion de un sistema en el cual
+las clases se interrelacionan unas con otras, tiene mucho que ver con los diagramas UML y la forma en que las entidades se relacionan
+
+Sistema de ventas:
+
+Factura:
+    relaciones: Muchos productos, un cliente, un vendedor.
+    atributos: cod, fecha.
+Vendedor:
+    relaciones: Muchos clientes..
+    atributos: id, nombre, cedula, telefono.
+Cliente:
+    relaciones: Muchas facturas, muchos vendedores
+    atributos: nombre, cedula, id, telefono.
+Productos:
+    relaciones: un producto puede estar en muchas facturas.
+    atributos: precio, nombre, id.
+
+Y asi es como se va formando el diseño de las clases en java para crear correctas relaciones de entidades

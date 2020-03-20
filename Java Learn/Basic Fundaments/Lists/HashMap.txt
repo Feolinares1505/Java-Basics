@@ -1,0 +1,18 @@
+HashMap es una clase que sirve para hacer las pases de un diccionario en donde existe algo llamado Key and Value
+se hace uso de claves asociativas
+
+HashMap dicc = new HashMap;
+
+dicc.put("Nombre", "Miguel");
+dicc.put("Edad", "18");
+
+String value = dicc.get("Nombre").toString(); la forma de obtener los valores de un hashMap es mediante el metodo get() y el indice que deseamos
+
+get(clave) – obtiene el valor correspondiente a una clave. Devuelve null si no hay clave
+put(clave, valor) – añade un par(clave, valor) al diccionario. Si hay un valor para esta clave, se machaca
+keySet() - devuelve un conjunto (set) con todas las claves
+values() - devuelve una colección con todos los valores
+entrySet() - devuelve una colección con todos los pares(clave, valor)
+containsKey(clave) – devuelve true si el diccionario contiene la clave indicada y false en caso contrario
+getKey() - devuelve la clave de la entrada. Se aplica a una sola entrada del diccionario, es decir a una pareja(clave, valor)
+getValue() - devuelve el contenido de la entrada. Se aplica a una sola entrada del diccionario, al igual que getKey()

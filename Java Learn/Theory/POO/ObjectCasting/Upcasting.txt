@@ -1,0 +1,6 @@
+Cuando el casteo de un objeto es ascendente en la jerarquia, se le conoce como upcasting, es decir: transformar un objeto de una clase hija
+a un objeto de una clase padre, abuelo, etc.
+- El upcasting se genera de manera automatica por el compilador:
+ Ej: si tu en un metodo requieres de un objeto de tipo FiguraGeometrica pero le pasas uno de tipo circulo, el cual es una instancia de la clase
+ hija, entonces será transformado al tipo de objeto requerido, en la cadena de herencia de forma "ascendente"
+

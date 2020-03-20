@@ -1,0 +1,6 @@
+- Consiste en ocultar los atributos para que no sean modificados de forma indiscriminada usando los modificadores de acceso para
+evitar que las modifiquen, y solo podran ser accedidas medinate su getter
+- Se le conoce a encapsulamiento cuando el estado de un objeto esta oculto
+- El encapsulamiento se logra a traves de los llamados modificadores de acceso
+- Se define un atributo como private cuando no deseamos que este sea accedido directamente y asi hacer uso de los contructors y metodos
+- Es mas formal usar el encapsulamiento por medio de los metodos setter y getter que directamente en el contructor

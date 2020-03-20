@@ -1,0 +1,16 @@
+Las matrices son arreglos de dos o mas dimensiones
+Las matrices se manejan por filas y columnas, el primer indice es de las filas y el segundo pertenece a las columnas
+
+Ej:
+String names[][] = new String [2][5]; //Esta matriz tiene un valor de tabla de dos filas por 5 columnas
+
+String names[][] = {{"Miguel", "Angel", "Yeison"}, {"Miguel", "Angel", "Yeison"}, {"Miguel", "Angel", "Yeison"}, {"Miguel", "Angel", "Yeison"}};
+//En este ejemplo cada bloque de llaves con valores es una fila, y la cantidad de estos seran las columnas
+
+"PARA RECORRER UNA MATRIZ SE UTILIZA UN CICLO FOR ANIDADO"
+
+for(int i; names.lenght; i++){ //Esta linea recorre la cantidad de filas que hay
+    for(int j; names[i].lenght; j++){ //Itera las columnas del renglon o fila que se este llamando en el momento
+        System.out.println(names[i][j]); //Finalmente muestra la iteración de la matriz
+    }
+}

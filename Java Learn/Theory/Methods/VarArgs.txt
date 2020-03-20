@@ -1,0 +1,30 @@
+Los arguemntos variables o VarArgs son una forma indirecta de enviar muchos valores a un metodo, para poder hacer uso de este,
+es necesario que todos los elementos enviados sean de un mismo tipo para que todos ellos puedan ser recepcionados como un arrego
+y se define de la siguiente forma:
+
+Recorrer el argumento con un for:
+public void ImprimirNumeros(int... numeros){
+    int elemento;
+    for(int i = 0; i < numeros.lenght; i++){
+        elemento = numeros[i];
+        System.out.println(elemento);
+    }
+}
+
+Recorrer el argumento con un foreach:
+public void ImprimirNumeros(int... numeros){
+    for(int numero : numeros){
+        System.out.println("El numero es: " + numero);
+    }
+}
+
+Estos argumentos variables se recorren de la misma forma en que lo haria un arreglo
+Es posible enviar como argumento variable cualquier tipo de dato u objeto
+PARA QUE SEA POSIBLE UTILIZAR LOS ARGUMENTOS VARIABLES JUNTO CON OTROS ARGUMENTOS ESTE DEBE ESTAR DECLARADO AL FINAL DE LA
+CADENA DE ARGUMENTOS, ASÍ:
+
+public void MostrarInfo(String name, int age, int... cantidadMostrar){
+
+}
+
+}

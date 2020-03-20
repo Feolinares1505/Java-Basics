@@ -1,0 +1,8 @@
+for(int edad : edades){
+    System.out.println(edad);
+}
+
+for(Persona persona : personas){
+    String name = persona.getName();
+    System.out.println("Tu nombre es: " + name);
+}

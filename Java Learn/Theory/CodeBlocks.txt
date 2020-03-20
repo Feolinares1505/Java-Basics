@@ -1,0 +1,25 @@
+Los bloques de codigo son aquellos fragmentos de codigo que estan dentro de "CORCHETES", por ejemplo aquellos que estan presentes dentro de los metodos
+Un ejemplo de bloque de codigo seria:
+
+public void Example(){ //De aquí
+    System.out.print("This is a code block");
+} //hasta aquí es un bloque de codigo
+
+Tambien existen bloque de codigo anonimo, los cuales son usados para inicializar atributos de un clase, estos se dividen en dos
+Es utilzado para inicializar los atributos cuando estos NO son de tipo static, este se ejecuta y define antes del contructor
+
+private int idExample;
+private int contadorExample
+private static valueX;
+
+{
+    idExample = ++contadorExample
+}
+
+Cuando lo que se quiere inicializar son atributos o metodos de tipo static entonces la sintaxis del bloque anonimo será:
+static {
+    valueX = 20;
+}
+
+TODO Entonces: cada vez que se ejecute la clase, el orden de ejecución será el siguiente:
+TODO Bloque anonimo Static - Bloque anonimo No Static - Constructor de la clase

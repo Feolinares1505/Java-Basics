@@ -1,0 +1,50 @@
+Enum es una clase la cual puede almacenar valores en forma de constantes y se llama como si fuese un objeto
+con la diferencia que este no requiere el uso de la palabra reservada "new"
+- El constructor de las clases enum no debe ser publico
+- Es posible hacer uso de atributos dentro de la clase enum
+- Podemos acceder a esos datos en forma de atributo con sus metodos get, obteniendo unicamente aquellos valores pertenecientes el enum seleccionado en su objeto
+- Los enum son constantes en java esta es la razón por la que son declarados en mayusculas
+- Se utilizan para guardar valores constantes en Java un ejemplo de esto serian los dias de la semana cuyo nombre de enum podria ser
+  "Dias" y sus valores (LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO)
+- Existe un metodo que esta definido por default y nos regresa una lista con todos los valores de la clase enum (values())
+
+
+public enum Colors{
+    BLUE("azul", 0),
+    YELLOW("amarillo", 1),
+    BROWN("cafe", 2),
+    GREEN("verde", 3),
+    ORANGE("naranja", 4),
+    VIOLET("violeta", 5)
+
+    private String name;
+    private int position;
+
+    Colors(String name, int position){
+        this.name = name;
+        this.position = position;
+    }
+}
+
+public class App{
+    public static void main(String args[]){
+
+        Colors color = Colors.BLUE;
+
+        System.out.print(color.name());
+        //Este me devuelve el valor en tipo string para el enumerado seleccionado al momento de crear la instancia
+        //En este caso se veria por pantalla la palabra "BLUE"
+
+        System.out.print(color.ordinal());
+        //Este metodo me mostrara la posicion en la que se encuentra el valor seleccionado en le objeto dentro de la lista
+
+        System.out.print(color.compareTo(color.BROWN));
+        //Muestra la posicion en la que se encuentra el color BROWN a partir de la posicion en la que se encuentra BLUE que fue utilizado en la instancia
+
+        System.out.print(Colors.values()); //Retorna un arreglo con todos los valores definidos dentro de la clase enum
+        para que no nos muestre el objeto sino sus valores sera necesario crear un array de la clase, asi:
+
+        Colors[] values = Colors.values();
+        System.out.print(values[2]);
+    }
+}

@@ -1,0 +1,12 @@
+Es posible retornar valores de tipo primitivo o de tipo objeto
+Tambien es posible condicionar el valor u objeto que será retornado, todo esto dependiendo de una sentencia de tipo condicional
+Ya sea Switch o If, asi:
+
+String child = "Eres un niño";
+String young = "Eres un joven";
+
+if(age < 13){
+    return child;
+}else if(age <= 18 && age >= 14){
+    return young;
+}

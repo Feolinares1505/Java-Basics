@@ -1,0 +1,1 @@
+Cuando la variable es de tipo local, es decir esta definida dentro de un metodo, esta DEBE ser inicializa con algún valor

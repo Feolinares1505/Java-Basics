@@ -1,0 +1,9 @@
+En donde puede ser utilizado cada tipo de modificador de acceso
+
+
+Modifier   Class   Method   Variable   Constructor
+
+Public      x         x        x            x
+Protected             x        x            x
+Default     x         x        x            x
+Private               x        x            x
