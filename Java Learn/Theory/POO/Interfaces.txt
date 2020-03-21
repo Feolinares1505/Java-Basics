@@ -1,3 +1,0 @@
-INTERFACES:
-- Solo contienen la declaracion de metodos "SIN IMPLEMENTAR" y "CONSTANTES" que podran ser utilizados por la clase que la implemente.
-- Se usan cuando la definicion del codigo es diferente para cada clase que de uso a la misma.

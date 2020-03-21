@@ -1,6 +1,0 @@
-CLASES ABSTRACTAS:
-- Se podrian definir como clases padre, a nivel de herencia en este caso de metodos.
-- No pueden ser instanciadas es decir que no es posible crear objetos a partir de esta.
-- Abstracto quiere decir generico, que reune un grupo de "OBJETOS" con caracteristicas o metodos compartidos.
-- Es posible crear metodos "ABSTRACTOS" similares en caracteristicas a los que se definen dentro de una interface (Se declaran asi: public abstract void ejemplo();)
-  Los metodos abstractos son de implementacion "OBLIGATORIA" pues se usan cuando su funcionamiento cambia segun quien o que clase la herede

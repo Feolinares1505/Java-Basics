@@ -1,0 +1,12 @@
+CLASES ABSTRACTAS:
+- Se podrian definir como clases padre.
+- Si una clase tiene metodos abstractos entonces debera ser declarada tambien como clase abstracta (public abstract class FiguraGeometrica{})
+- No pueden ser instanciadas es decir que no es posible crear objetos a partir de esta.
+- Abstracto quiere decir generico, que reune un grupo de "OBJETOS" con caracteristicas o metodos compartidos.
+- Es posible crear metodos "ABSTRACTOS" similares en caracteristicas a los que se definen dentro de una interface (Se declaran asi: public abstract void dibujar();)
+  Los metodos abstractos son de implementacion "OBLIGATORIA" pues se usan cuando su funcionamiento cambia segun quien o que clase la herede
+- Los metodos abstractos tambien son utilizados cuando no conocemos el comportamiento inicial del metodo hasta no ser especificado por una clase
+  hija mas concreta, quien se encarga de implementar el codigo respectivo.
+- Los metodos abstractos terminan con ;
+- FiguraGeometrica ej = new FiguraGeometrica(); //Esto es imposible
+- FiguraGeometrica ej = new Circulo(); //Lo que si se puede es que una variable de tipo abstracto guarde la referencia de un objeto de una clase hija
