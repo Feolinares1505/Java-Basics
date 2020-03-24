@@ -1,7 +1,5 @@
 package com.casting;
 
-import java.util.Objects;
-
 public class Empleado {
     protected String nombre;
     protected double sueldo;

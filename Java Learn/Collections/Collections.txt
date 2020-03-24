@@ -1,0 +1,18 @@
+- Las colecciones en java son estructuras de datos similares a los arreglos pero mas elaboradas y de formas mas varidas,
+  existe un API de colecciones en java que se divide en Listas, Sets y mapas
+
+- Los Sets son conjuntos de datos no ordenados, no se permiten duplicados, cualquier elemento duplicado no se insertará en la colección
+
+
+- Los Maps son llaves relacionadas cada una con un dato, formando una especie de tabla de datos,
+  estos utilizan funciones hash para el ordenamiento de sus elementos
+  las funciones hash son algoritmos que convierten datos complejos a un numero entero, y asi asignar un entero unico a cada valor
+
+
+- Las listas son colecciones "ORDENADAS" las cuales si permiten elementos duplicados
+
+TODO Existen clases de apoyo para trabajar con colecciones como lo son:
+- Enumeration
+- Iterator
+
+TODO Para comparar elementos se utilizará la interface "Comparator"

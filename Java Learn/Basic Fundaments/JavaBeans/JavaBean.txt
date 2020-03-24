@@ -6,3 +6,4 @@ Reglas:
 - Debe implementar la interface Serializable del paquete java.io, pues existe mas de una interfaz de tipo Serializable
 - La interfaz Serializable no tiene metodos, se usa cuando el framework o tecnoloia que lo use y quiera compartir esta clase por diferentes servidores
   asi podrá transformar nuestros objetos en 0ros y 1nos
+- Los JavaBeans pueden utilizarse en cualquier versiòn de Java

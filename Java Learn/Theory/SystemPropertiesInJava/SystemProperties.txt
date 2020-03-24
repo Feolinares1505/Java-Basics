@@ -1,0 +1,3 @@
+- Las propiedades del sistema en java son los valores que tiene el dispositivo, estos pueden ser extraidos por medio del metodo
+  System.getProperties(); Lo cual nos devolverá una especie de mapa con sus respectivas llaves y valores y podemos obtener valores como
+  el sistema operativo, la versión de java, etc.

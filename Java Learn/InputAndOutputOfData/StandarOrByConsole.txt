@@ -1,0 +1,38 @@
+Existen varias formas de salida y entrada de datos como lo es la estandar o mediante la consola
+
+- System.in es la variable que se usa pasa recepcionar los datos escritos por consola, "estos serán de tipo string"
+- System.out por el contrario es usada para exponer la informaación por la consola
+- System.err se encarga de mostrar los errores del sistema
+
+
+- Las clases de tipo Buffered se usan para procesar mas de un caracter a la vez
+- Las de tipo reader o writer procesan un byte a la vez y son recomndadas para su uso en algún archivo de texto que use ASCCI o Unicode
+- Los flujos o Streams son utilizados para procesar un byte a la vez y son recomendados para procesar archivos binarios como (word, excel, pdf que son mas complejos que un simple .txt)
+
+TODO API de Lectura o entrada de datos:
+- Estas clases por el contrario pueden leer una linea entera de caracteres
+
+Tipos char:
+- Reader (I)
+  * InputStreamReader
+    + FileReader
+  * BufferedReader
+Tipos byte:
+- InputStream (I)
+  * FilterInputStream
+    + DataInputStream
+    + BufferedInputStream
+
+TODO API de Escritura o salida de datos:
+Tipos char:
+- Writer (I)
+  * PrintWriter
+  * OutputStreamWriter
+    + FileWriter
+  * BufferedWriter
+    + PrintStream
+Tipos byte:
+- OutputStream (I)
+  * FilterOutputStream
+    + BufferedOutputStream
+    + DataOutputStream

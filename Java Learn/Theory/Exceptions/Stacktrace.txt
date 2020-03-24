@@ -1,0 +1,7 @@
+- El stacktrace (Traza de pila de errores) de una excepcion es el conjunto de mensajes de error, desde el "ORIGEN" hasta la ultima clase que
+  recibe el error, y es en resumidas cuentas un ratreo del error de la excepcion, y gracias a ello, podemos conocer mas facilmente el origen
+  del problema y así saber como corregirlo, esto es posible encontrarlo en el Log de la aplicación
+- El Mecanismo de Pila de excepciones es el orden por el cual se propaga la excepcion, desde el metodo que originó la excepcion hasta llegar al metodo main,
+  o el ultimo metodo que recivio el problema
+- Cuando una excepcion no es atrapada o cacheada, esta se propaga por aquellos metodos que mandaron llamar al metodo que la genero y así hasta que
+  en algún punto sea atrapada

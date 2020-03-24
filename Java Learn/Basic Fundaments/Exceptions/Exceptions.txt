@@ -1,12 +1,32 @@
+Cuando nosotros creamos nuestras propias clases de excepcion es con la intención de personalizar los mensajes de error
+Existen dos topos de excepciones las uncheckexceptions y las checkexceptions
+- Las checkexceptions son las que heredan de la clase Exception
+
+
+@TODO Es importante el hecho de que es posible convertir una excepcion a tipo uncheckexception simplemente haciendo que extienda de otra clase que no se Exception, es decir: alargar la jerarquia
+- Las uncheckexceptions son aquellas que heredan de la clase RuntimeException, este tipo de excepciones no estamos obligados a procesarlas,
+  es decir: podemos o no hacer uso de ellas con el bloque Try - Catch, a este tipo de excepciones tambien se les llama como excepciones en tiempo de
+  ejecuciòn, algunos ejemplos de estas son:
+  * NullPointerException
+
+Las checkexceptions mas conocidas son:
+SQLException //Es arrojada cuando existen errores al hacer conexiones con bases de datos
+
+
+TODO Las excepciones en los bloques catch serán procesados en el orden de jerarquia, de menor a mayor, cuando haya mas de una, teniendo en cuenta que pueden haber varias excepciones y varios bloques catch
+-------------------------------------------------------------------------------------------------------
 Las excepciones en java se manejan mediante
 
+//Bloque que lanza excepciones
 Try {
     String name = "Miguel";
     int num = Integer.parseInt(name);
 } catch(Exception e){
+    //Bloque de codigo que procesa la excepción
     System.out.print(e.getMessage());
     System.out.print("Error");
 } finally {
+    //Bloque de codigo opcional, este se ejecuta siempre
     Syste.out.print("Esto siempre se ejecutará.");
 }
 

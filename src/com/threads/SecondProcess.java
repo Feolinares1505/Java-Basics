@@ -1,7 +1,7 @@
 package com.threads;
 
-import com.data.ArrayListUse;
-import com.data.StructureOfData;
+import com.threads.utilities.ArrayListUse;
+import com.threads.utilities.StructureOfData;
 
 import java.util.ArrayList;
 

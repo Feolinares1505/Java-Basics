@@ -2,7 +2,6 @@ package com;
 
 import com.enumclass.Dias;
 import com.enumclass.DiasUse;
-import com.data.IteratorClass;
 import com.threads.SecondProcess;
 import com.utilities.operations.VarArgsUse;
 import com.utilities.text.StringBuilder;
@@ -23,14 +22,11 @@ public class App {
 
         TextColor text = new TextColor();
         StringBuilder info = new StringBuilder();
-        IteratorClass objI = new IteratorClass();
         Thread translate = new Thread(new SecondProcess());
 
         text.ShowTextWithColor(values);
 
         info.ShowInfo();
-
-        objI.Iteration();
 
         translate.start();
 

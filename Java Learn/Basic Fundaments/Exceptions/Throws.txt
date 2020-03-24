@@ -1,0 +1,5 @@
+- Para indicar que una clase puede generar una excepcion usamos la palabra reservada "Throws" des pues de los atributos del
+  constructor, seguido de la clase del tipo de excepcion que esta va a generar
+- Nos permite especificar el tipo de excepción que arroja cierto metodo, una excepción que desciende de la clase "Exception" si estamos
+  obligados a declararla en la firma del metodo (public void ejemplo() throws OperationException(){})
+- Cuando la excepcion desciende de la clase RuntimeException no estamos obligados a declararla en la firma del metodo

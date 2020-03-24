@@ -1,6 +1,0 @@
-Visto:
-Lambdas
-Abstract class
-Interfaces
-Programación funcional
-Polimorfismo

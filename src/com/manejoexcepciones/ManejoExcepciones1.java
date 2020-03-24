@@ -1,4 +1,7 @@
-package com.exceptions;
+package com.manejoexcepciones;
+
+import com.exceptions.Division;
+import com.exceptions.OperationException;
 
 public class ManejoExcepciones1 {
     public static void main(String[] args) {

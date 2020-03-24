@@ -1,0 +1,11 @@
+- Los tipos genericos son aquellos en los que enviamos un parametro o clase, pero dejamos pendiente la definición de su tipo
+- TODO Para ello hacemos uso del operador diamante <>
+- Cabe aclarar que no podemos hacer uso de datos de tipo primitivo sino solo de tipo Object
+  Es posible utilizar varios nombres, las convenciones son:
+
+  E Element (Utilizado generalmente por el framework de colecciones de java)
+  K Key (Llave, utilizado en mapas)
+  N Number (Utilizado para numeros)
+  T Type (Tipo, utilizado para representar tipos, es decir, una clase)
+  V Value (Representa un valor, tambien se usa en mapas)
+  S, U, V (Se utilizan para otros tipos)

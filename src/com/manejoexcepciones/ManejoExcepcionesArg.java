@@ -1,9 +1,12 @@
-package com.exceptions;
+package com.manejoexcepciones;
+
+import com.exceptions.Division;
+import com.exceptions.OperationException;
 
 public class ManejoExcepcionesArg {
 
-    //Esta es la forma alternativa de procesar una excepcion, el indicamamos al compilador que esta clase podria arrojar una excepcion al hacer uso de la clase Division
-    public static void main(String[] args) throws OperationException{
+    //Esta es la forma alternativa de procesar una excepcion, le indicamamos al compilador que esta clase podria arrojar una excepcion al hacer uso de la clase Division
+    public static void main(String[] args) throws OperationException {
         try{
             //Aqui estamos haciendo uso de el arreglo de argumentos que recibe como parametro el metodo main
             int op1 = Integer.parseInt(args[0]);

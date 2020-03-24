@@ -1,0 +1,40 @@
+Cuando se sobreescribe un metodo en la jerarquia ocurre lo siguiente:
+La cadena de herencia de las excepciones que estamos utilizando es:
+
+
+                                Exception
+                                    |
+                                    v
+                                MyException
+                                    |
+                                    v
+                                MySubException
+
+
+
+Esta es la clase padre
+----------------------------------------------------------------------------------------------
+public class ExceptionUseA{
+    public void methodX() throws MyException{
+        throws new MyException("Esta excepción hereda directamente de la clase Exception");
+    }
+}
+
+Clase hija
+----------------------------------------------------------------------------------------------
+public class SubExceptionUseB extends ExceptionUseA{
+    public void methodX() throws MySubException{
+        throws new MySubException("Esta excepción hereda de la clase MyException");
+    }
+}
+
+Clase hija, si la clase padre lanza una excepción de tipo hija las clases que la extiendan no podrán lanzar una excepción que esté
+por encima de la que utiliza el metodo en la clase padre, por ende, esto:
+ES IMPOSIBLE!!
+----------------------------------------------------------------------------------------------
+public class SubExceptionUseC extends ExceptionUseA{
+    public void methodX() throws Exception{
+        throws new Exception("Esta excepción de tipo 'Exception' ");
+    }
+}
+

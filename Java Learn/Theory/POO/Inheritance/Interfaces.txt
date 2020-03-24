@@ -1,0 +1,39 @@
+INTERFACES:
+- Solo contienen la declaracion de metodos "SIN IMPLEMENTAR" y "CONSTANTES" que podran ser utilizados por la clase que la implemente.
+- Se usan cuando la definicion del codigo es diferente para cada clase pero cuyo comportamineto sea similar.
+- Es posible que una interfaz implemnete a otra interfaz
+- No es posible crear objetos de una interace, lo que si se puede es crear una variable del tipo de la interfaz que guarde un objeto de una clase que haya
+  implementado dicha interface
+  TODO Aunque nosotros no agreguemos las palabras reservadas public y static en los atributos y public y abstract en los metodos, el compilador lo hará de forma automatica
+Ej:
+public interface SerVivo{
+
+    public static final AGE; //Los atributos definidos en una interfaz deben ser constantes de tipo static
+    public abstract void comer();
+    public abstract void dormir();
+    public abstract void moverse();
+}
+
+public class Humano implements SerVivo{
+    public void comer(){
+        System.out.print("Como usando mi boca y herramientas que me ayuden");
+    }
+    public void dormir(){
+        System.out.print("Duermo en una cama");
+    }
+    public void moverse(){
+        System.out.print("Me muevo en carro, moto, a pie, etc.");
+    }
+}
+
+public class Animal implements SerVivo{
+    comer(){
+            System.out.print("Como usando solo mi boca y mis garras");
+        }
+        dormir(){
+            System.out.print("Duermo en una madriguera");
+        }
+        moverse(){
+            System.out.print("Me muevo usando mis patas");
+        }
+}

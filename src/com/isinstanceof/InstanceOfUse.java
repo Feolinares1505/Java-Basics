@@ -2,15 +2,18 @@ package com.isinstanceof;
 
 public class InstanceOfUse {
     public static void main(String[] args) {
-        FiguraGeometrica figure;
-        figure = new Elipse();
+
+        FiguraGeometrica figure = new Elipse();
+
+        //Puesta en practica de la clase abstracta
+        figure.dibujar();
 
         determinarTipo(figure);
 
         System.out.println("\nTodos los tipos: ");
         determinarTodosLosTipos(figure);
     }
-
+    //Metodos para la practica de la palabra reservada instanceOf
     private static void determinarTodosLosTipos(FiguraGeometrica figure){
         if (figure instanceof Elipse){
             System.out.println("Es una elipse");

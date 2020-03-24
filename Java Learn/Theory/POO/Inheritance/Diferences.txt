@@ -1,0 +1,7 @@
+Las clases abstractas se utilizan para definir funcional en común entre aquellas clases que extiendan de la misma, dichas clases deben tener una relación en común
+Ej:
+public abstract class FiguraGeometrica{}
+public class Circulo extends FiguraGeometrica{}
+
+A diferencia de las clases abstractas, las interfaces definen un comportamiento en común pero las clases que hagan uso de esta no necesariamente deben tener
+alguna relación entre si
