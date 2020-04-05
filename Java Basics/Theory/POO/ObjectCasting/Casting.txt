@@ -1,0 +1,1 @@
+El objetivo de la conversión de objetos es poder acceder a los metodos correspondientes según lo necesitemos

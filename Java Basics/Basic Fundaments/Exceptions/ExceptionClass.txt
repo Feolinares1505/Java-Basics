@@ -1,0 +1,11 @@
+Asi se define una nueva clase de tipo excepción:
+
+package com.javabasics.exceptions;
+
+public class OperationException extends Exception {
+
+    public OperationException(String message) {
+        super(message); //Este constructor va a inicializar el atributo mensaje de la clase padre, el cual deseamos personalizar al momento de atraparla o generarla
+    }
+
+}

@@ -1,0 +1,85 @@
+- METODOS DENTRO DE STRINGBUILDER:
+
+1 com.javabasics.utilities.text.StringBuilder
+
+1.1 append(...)
+
+1.2 Añade al final del com.javabasics.utilities.text.StringBuilder a la que se aplica, un String o la representación en forma de String de un dato asociado a una variable primitiva
+
+2 int
+
+2.1 capacity()
+
+2.2 Devuelve la capacidad del com.javabasics.utilities.text.StringBuilder
+
+3 int
+
+3.1 length()
+
+3.2 Devuelve el número de caracteres del com.javabasics.utilities.text.StringBuilder
+
+4 com.javabasics.utilities.text.StringBuilder
+
+4.1 reverse()
+
+4.2 Invierte el orden de los caracteres del com.javabasics.utilities.text.StringBuilder
+
+5 void
+
+5.1 setCharAt(int indice,char ch)
+
+5.2 Cambia el carácter indicado en el primer argumento por el carácter que se le pasa en el segundo
+
+6 char
+
+6.1 charAt(int indice)
+
+6.2 Devuelve el carácter asociado a la posición que se le indica en el argumento
+
+7 void
+
+7.1 setLength(int nuevaLongitud)
+
+7.2 Modifica la longitud. La nueva longitud no puede ser menor
+
+8 String
+
+8.1 toString()
+
+8.2 Convierte un com.javabasics.utilities.text.StringBuilder en un String
+
+9 com.javabasics.utilities.text.StringBuilder
+
+9.1 insert(int indiceIni,String cadena)
+
+9.2 Añade la cadena del segundo argumento a partir de la posición indicada en el primero
+
+10 com.javabasics.utilities.text.StringBuilder
+
+10.1 delete(int indiceIni,int indiceFin)
+
+10.2 Borra la cadena de caracteres incluidos entre los dos indices indicados en los argumentos
+
+11 com.javabasics.utilities.text.StringBuilder
+
+11.1 deleteChar(int indice)
+
+11.2 Borra el carácter indicado en el índice
+
+12 com.javabasics.utilities.text.StringBuilder
+
+12.1 replace(int indiceIni, int indiceFin,String str)
+
+12.2 Reemplaza los caracteres comprendidos entre los dos indices por la cadena que se le pasa en el argumento
+
+13 int
+
+13.1 indexOf (String str)
+
+13.2 Analiza los caracteres de la cadena y encuentra el primer índice que coincide con el valor deseado
+
+14 String
+
+14.1 subString(int indiceIni,int indiceFin)
+
+14.2 Devuelve una cadena comprendida entre los dos índices

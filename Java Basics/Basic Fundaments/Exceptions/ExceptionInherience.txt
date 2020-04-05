@@ -1,0 +1,34 @@
+Para hacer uso de la herencia en las excepciones se tiene el mismo concepto de extends, así:
+
+//Excepción padre
+package com.javabasics.exceptions;
+
+public class OperationException extends Exception {
+
+    public OperationException(String message) {
+        super(message);
+    }
+
+}
+
+
+Excepción hija
+package com.javabasics.exceptions;
+
+public class DivisionException extends OperationException {
+
+    public DivisionException(String message) {
+        super(message);
+    }
+
+}
+
+//Uso de la excepción
+
+public static void main(String args[]) throws OperationException{ //Estamos declarando que es posible que se ejecuté una excepción de tipo OperationException
+
+    //Al ser esta una excepcion que hereda de la excepcion OperationExcepción es posible instanciarla
+    //Para ampliar el rango de excepciones que podemos utilizar haciendo uso de la herencia
+    throw new DivisionException("Hubo un error en la división");
+
+}
