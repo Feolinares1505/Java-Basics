@@ -1,8 +1,0 @@
-Un servlet no es mas que una clase java que permite
-extiende de HttpServlet
-Tiene dos metodos principales (doGet - doPost)
-doGet recibe peticiendos atravez del get es decir la URL
-doPost recibe la info desde los datos enviados a travez de POST
-
-cada uno recibe dos parametros, request y response
-para enviar la info al cliente se usa el parametro response.
